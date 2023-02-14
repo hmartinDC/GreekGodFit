@@ -4,6 +4,6 @@ import WelcomeGreek from "../components/WelcomeGreek.vue";
 
 <template>
   <main>
-    <WelcomeGreek />
+    <WelcomeGreek></WelcomeGreek>
   </main>
 </template>

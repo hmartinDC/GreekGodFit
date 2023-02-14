@@ -38,16 +38,16 @@
       </div>
     </div>
     <!-- CARDS -->
-    <div class="row p-5 d-flex justify-content-around bg-light">
+    <div class="row p-5 d-flex justify-content-around bg-black">
       <div class="col d-flex align-items-center justify-content-center">
         <div
           class="card d-flex align-items-center justify-content-center"
           style="width: 18rem"
         >
-          <img src="../images/snorlax.jpg" class="card-img-top" />
+          <img src="../images/camisetas.jpg" class="card-img-top" />
           <div class="card-body">
             <h5 class="card-title">Clothes</h5>
-            <a href="#" class="btn btn-dark">Clothes</a>
+            <router-link to="Clothe" class="btn btn-dark">Clothes</router-link>
           </div>
         </div>
       </div>
@@ -56,30 +56,10 @@
           class="card d-flex align-items-center justify-content-center"
           style="width: 18rem"
         >
-          <img
-            src="../images/mancuernas.jpg"
-            class="card-img-top"
-            height="300px"
-          />
+          <img src="../images/about.jpg" class="card-img-top" />
           <div class="card-body">
-            <h5 class="card-title">Material</h5>
-            <a href="#" class="btn btn-dark">Material</a>
-          </div>
-        </div>
-      </div>
-      <div class="col d-flex align-items-center justify-content-center">
-        <div
-          class="card d-flex align-items-center justify-content-center"
-          style="width: 18rem"
-        >
-          <img
-            src="../images/planing.png"
-            class="card-img-top"
-            height="300px"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Planing</h5>
-            <a href="#" class="btn btn-dark">Planing</a>
+            <h5 class="card-title">About us</h5>
+            <router-link to="About" class="btn btn-dark">About us</router-link>
           </div>
         </div>
       </div>

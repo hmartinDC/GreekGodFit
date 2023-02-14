@@ -1,0 +1,110 @@
+{
+  "Clothe": [
+    {
+      "id": 1,
+      "name": "Camiseta Snorlax",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "price": 19.99
+    },
+    {
+      "id": 2,
+      "name": "Sudadera",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "price": 49.99
+    },
+    {
+      "id": 3,
+      "name": "Pantalones corto",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "price": 23.99
+    },
+    {
+      "id": 4,
+      "name": "Calcetines DL",
+      "size": [
+        "36-39",
+        "40-43",
+        "44-46",
+        "47-50"
+      ],
+      "price": 14.99
+    }
+  ],
+  "Questions": [
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 6
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 7
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 8
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 9
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 10
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 11
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 12
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 13
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 14
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 15
+    },
+    {
+      "email": "KLK",
+      "question": "MI LOKO ESTAMOS BIENB",
+      "id": 16
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+    class="navbar navbar-expand-lg justify-content-center fixed-top border-bottom"
     data-bs-theme="dark"
   >
     <div class="container-fluid">
@@ -26,36 +26,41 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div
+        class="collapse navbar-collapse text-align"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Home">Home</a>
+            <router-link to="/home" class="nav-link active">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Clothes</a>
+            <router-link to="/clothe" class="nav-link active"
+              >Clothes
+            </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Material</a>
+            <router-link class="nav-link active" to="/about"
+              >Contact Us</router-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Planing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Contact Us</a
+            <router-link class="nav-link active" to="/questions"
+              >My questions</router-link
             >
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
 </template>
+
+<style>
+.navbar-expand-lg {
+  background-color: black;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+</style>
