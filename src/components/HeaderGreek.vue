@@ -50,6 +50,7 @@
             >
           </li>
         </ul>
+        <router-link to="/user" class="btn btn-dark"> Inicio de Sesión</router-link>
       </div>
     </div>
   </nav>
