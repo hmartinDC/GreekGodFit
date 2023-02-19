@@ -50,17 +50,17 @@ Introduciremos Username, email y password y crearemos un nuevo usuario en la BBD
 El rendimiento puede variar, ya que, he comprobado que no siempre va a tener el mismo rendimiento aplicandolo en diferentes ocasiones y diferentes navegadores.
 
 ### Minimos
-Vue router -> Usado y dinamico.
-Páginas 4 -> Páginas 6.
-Uso de componentes -> Si.
-Tecnología -> Boostrp.
+Vue router = Usado y dinamico.
+Páginas 4 = Páginas 6.
+Uso de componentes = Si.
+Tecnología = Boostrp.
 Componentes de boostrap:
 - Navbar
 - Card
 - Carousel
 - Buttons
 - Badges
-Responsiva -> Si
+Responsiva = Si
 
 ### Ampliaciones
 
