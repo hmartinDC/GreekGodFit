@@ -1,35 +1,70 @@
-# Greek God Fit
+## Greek God Fit
 
-This template should help get you started developing with Vue 3 in Vite.
+Navbar:
 
-## Recommended IDE Setup
+- Nombre de la pagina y logo
+- Home
+- Clothe
+- Contact us
+- My questions
+- Log In
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Home
+ La pagina principal de la web encontrasemos un carrusel con diferentes imágenes, 2 cards que nos llevarán a diferentes paginas y un footer en el cual encontraremos:
+ - El logo con el nombre de la pagina
+ - Las redes sociales que estan linkeadas a un video
 
-## Customize configuration
+### Clothe
+Encontraremos 4 cards con el titulo del producto. También un botón que nos dejará ver el producto con las tallas del mismo y el precio.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Articulos
+Esta página es la que veremos al darle al botón en clothe, donde tendremos:
+  - Un select con las tallas
+  - Un badge con el precio
 
-## Project Setup
+### Contact Us 
+Podremos escribir una pregunta a la pagina con nuestro correo y la enviaremos a base de datos
 
-```sh
-npm install
-```
+### My questions
+Aquí podremos ver todas nuestras questions:
+- Una question
+- Todas
+- Editar una question
+- Eliminar
 
-### Compile and Hot-Reload for Development
+Basicamenter en esta página tengo el diseño del CRUD para la llamadas a BBDD
 
-```sh
-npm run dev
-```
+### Log In
+Encontraremos dos apartados:
+- Log in
+- Register
 
-### Compile and Minify for Production
+Log in:
+Introduciremos Username y password y setearemos una cookie
+Register:
+Introduciremos Username, email y password y crearemos un nuevo usuario en la BBDD
 
-```sh
-npm run build
-```
+### Lighthouse
+![lighthouse](https://user-images.githubusercontent.com/91564617/219974806-f1f9d77a-8c58-48ce-869a-ea443869547d.png)
 
-### Lint with [ESLint](https://eslint.org/)
+El rendimiento puede variar, ya que, he comprobado que no siempre va a tener el mismo rendimiento aplicandolo en diferentes ocasiones y diferentes navegadores.
 
-```sh
-npm run lint
-```
+### Minimos
+Vue router -> Usado y dinamico
+Páginas 4 -> Páginas 6
+Uso de componentes -> Si
+Tecnología -> Boostrp
+Componentes de boostrap:
+- Navbar
+- Card
+- Carousel
+- Buttons
+- Badges
+Responsiva -> Si
+
+### Ampliaciones
+
+Hay mas páginas de las señaladas, dynamics array y el uso de cookies
+
+
+ 
